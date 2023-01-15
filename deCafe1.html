@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deCafe</title>
+    <link rel="stylesheet" href="deCafe1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar">
+            <div class="topbar">
+                <div class="topbar-cont">
+                    <div class="topbar-follow">
+                        <div class="topbar-txt">
+                            FOLLOW US
+                        </div>
+                        <div class="topbar-logos">
+                            <a href="this"><ion-icon name="logo-facebook" class="fb-icon"></ion-icon></a>
+                            <a href="this"><ion-icon name="logo-twitter" class="twitter-icon"></ion-icon></a>
+                            <a href="this"><ion-icon name="logo-instagram" class="ig-icon"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="topbar-right-cont">
+                        <div class="res-txt">RESERVATIONS +91-1111111</div>
+                        <div class="booking">
+                            <a href="this">
+                                <div class="booking-icon">
+                                    <ion-icon name="calendar-number-outline" class="booking-img"></ion-icon>
+                                </div>
+                                <div class="booking-txt">BOOK NOW</div>
+                            </a>
+                        </div>
+                        <div id='toggle-btn' class="toggle-btn" onclick="togglemenu()">
+                            <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+                        </div>
+                    </div>
+                    <div id="sidebar">
+                        <div class="close-cont" onclick="togglemenu()">
+                            <ion-icon name="close" class="close-icon"></ion-icon>
+                        </div>
+                        <div class="sidebar-logo">
+                            <img src="deCafe1.jpg" alt="logo">
+                        </div>
+                        <div class="sidebar-items">
+                            <ul class="list">
+                                <div class="list-cont"><ion-icon name="caret-forward-outline"
+                                        class="list-bullet"></ion-icon>
+                                    <li class="sidebar-item"><a href="this"> Home</a></li>
+                                </div>
+                                <div class="list-cont"><ion-icon name="caret-forward-outline"
+                                        class="list-bullet"></ion-icon>
+                                    <li class="sidebar-item"><a href="this">About Us</a></li>
+                                </div>
+                                <div class="list-cont"><ion-icon name="caret-forward-outline"
+                                        class="list-bullet"></ion-icon>
+                                    <li class="sidebar-item"><a href="this">Meet The Chefs</a></li>
+                                </div>
+                                <div class="list-cont"><ion-icon name="caret-forward-outline"
+                                        class="list-bullet"></ion-icon>
+                                    <li class="sidebar-item"><a href="this">Our Services</a></li>
+                                </div>
+                                <div class="list-cont"><ion-icon name="caret-forward-outline"
+                                        class="list-bullet"></ion-icon>
+                                    <li class="sidebar-item"><a href="this">Shop</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="sidebar-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusamus nostrum animi?
+                        </div>
+                        <div class="sidebar-seperator">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottombar">
+                <div class="bottombar-cont">
+                    <div class="logo">
+                        <img src="deCafe1.jpg" alt="logo">
+                    </div>
+                    <div class="items">
+                        <ul>
+                            <li class="item"><a href="this">Home</a></li>
+                            <li class="item"><a href="this"><ion-icon name="star" class="bullets"></ion-icon>About</a>
+                                <div class="submenu1">
+                                    <ul>
+                                        <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                href="this">Contact Form</a></li>
+                                        <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                href="this">Open Table</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item"><a href="#menu"><ion-icon name="star" class="bullets"></ion-icon> Menu</a>
+                                <div class="submenu2">
+                                    <ul>
+                                        <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                href="#menu">Standard List</a></li>
+                                        <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                href="this">Menu Gallary</a></li>
+                                        <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                href="this">Top Selling Items</a></li>
+                                        <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                href="this">Instant Menu</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item"><a href="this"><ion-icon name="star"
+                                        class="bullets"></ion-icon>Products</a>
+                                <div class="submenu3">
+                                    <ul>
+                                        <div class="top-selling">
+                                            <div class="top-selling-txt">Top Selling
+                                            </div>
+                                            <div class="submenu-cont-1">
+                                                <img src="product-1.png" alt="product-1">
+                                                <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                        href="this" class="products-txt">Nicaragua Wild Beans</a></li>
+                                            </div>
+                                            <div class="submenu-cont-2">
+                                                <img src="product-2.png" alt="product-2">
+                                                <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                        href="this" class="products-txt">Columbia Wild Beans</a></li>
+                                            </div>
+                                            <div class="submenu-cont-3">
+                                                <img src="product-3.png" alt="product-3">
+                                                <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                        href="this" class="products-txt">Peru Coffee</a></li>
+                                            </div>
+                                        </div>
+                                        <div class="others">
+                                            <div class="others-txt">Other Products</div>
+                                            <div class="submenu-cont-4">
+                                                <img src="Filter_Coffee.png" alt="product-4">
+                                                <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                        href="this" class="products-txt">Filter Coffee Beans</a></li>
+                                            </div>
+                                            <div class="submenu-cont-5">
+                                                <img src="Coffee_Beans.png" alt="product-5">
+                                                <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                        href="this" class="products-txt">Green Coffee Beans</a></li>
+                                            </div>
+                                            <div class="submenu-cont-6">
+                                                <img src="nescafe1.png" alt="product-6">
+                                                <li><ion-icon name="caret-forward" class="submenu-bullets"></ion-icon><a
+                                                        href="this" class="products-txt">Standard Coffee Beans</a></li>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item"><a href="this"><ion-icon name="star" class="bullets"></ion-icon>
+                                    Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <form action="" class="srchbar">
+                            <input type="text" placeholder="Search...">
+                            <button><ion-icon name="search-sharp" class="srchbtn"></ion-icon></button>
+                        </form>
+                    </div>
+                    <div class="cart">
+                        <a href="this">
+                            <div class="cart-text">
+                                Cart
+                            </div>
+                            <div class="cart-img">
+                                <ion-icon name="cart-outline" class="cart-icon"></ion-icon>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-text-cont">
+            <div class="home-tagline">
+                <h3>
+                    Coffee peelo Kahi se,<br>
+                    Satisfaction Milega <br> yahi se
+                </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Iusto, nam.</p>
+                <button>
+                    Get Yours
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="home-2-container">
+        <div class="home-2-subcontainer">
+            <div class="home-2-subcontainer-sub">
+                <div class="home-2-img-cont-1">
+                    <img src="home-1-image-1.jpg" alt="" class="home-img-1">
+                    <h5 class="home-2-img-txt1">
+                        DELECIOUS FOOD
+                    </h5>
+                        <div>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio necessitatibus perspiciatis
+                            nesciunt, ea illo nobis!
+                        </div>
+                    
+                </div>
+                <div class="home-2-img-cont-2">
+                    <img src="home-1-image-2.jpg" alt="" class="home-img-2">
+                    <h4 class="home-2-img-txt2">
+                        FOR EVERY TASTE
+                    </h4>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio necessitatibus perspiciatis
+                        nesciunt, ea illo nobis!
+                    </div>
+                </div>
+                <div class="home-2-img-cont-3">
+                    <img src="home-1-image-3.jpg" alt="" class="home-img-3">
+                    <h4 class="home-2-img-txt3">
+                        THE OG MENU
+                    </h4>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio necessitatibus perspiciatis
+                        nesciunt, ea illo nobis!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-cont" id="menu"><div class="menu-txt-cont"><h1 class="menu-txt1">OUR</h1>
+        <h1 class="menu-txt2">MENU</h1>
+    </div>  
+        <div class="menu-subcont">
+            <div class="sub-subcont-sub1">
+                <div class="menu-item1">
+                    <img src="menu-5.png" alt="">
+                    <h3>Espresso</h3>
+                    <h5>₹199.00/-</h5>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="menu-item1">
+                    <img src="menu-2.png" alt="">
+                    <h3>Cappucino</h3>
+                    <h5>₹149.00/-</h5>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="menu-item1">
+                    <img src="menu-3.png" alt="">
+                    <h3>Americano</h3>
+                    <h5>₹299.00/-</h5>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sub-subcont-sub2">
+                <div class="menu-item2">
+                    <img src="pizza.jpg" alt="">
+                    <h3>Thin Crust Pizza</h3>
+                    <h5>₹229.00/-</h5>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="menu-item2">
+                    <img src="pasta.jpeg" alt="">
+                    <h3>Red Sauce Pasta</h3>
+                    <h5>₹199.00/-</h5>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="menu-item2">
+                    <img src="sandwich.jpg" alt="">
+                    <h3>sandwich</h3>
+                    <h5>₹99.00/-</h5>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="deCafe.js">
+
+    </script>
+</body>
+
+</html>
